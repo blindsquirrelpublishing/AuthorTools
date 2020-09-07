@@ -1,0 +1,652 @@
+{
+  "Expressions": [
+    {
+      "Title": "CLICK Shorthand: + AP",
+      "Description": "This shorthand command will create the text for the clicking of a menu button. This optional qualifier will indicate that the button that you are clicking on it in the action pane.",
+      "Expression": "\\+ ([\\w\\s/]+) > ([\\w\\s/]+) > ([\\w\\s/]+), AP",
+      "Example": "+ Sell > New > Create, AP",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$3</b> button in the <b>$2</b> group of the <b>$1</b> action pane"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b> > <b>$2</b> > <b>$3</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$3</b> button within the <b>$2</b> group of the <b>$1</b> action pane tab"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$3</b> button within the <b>$2</b> group of the <b>$1</b> action pane tab"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + > TB",
+      "Description": "This shorthand command will create the text for the clicking of a menu button. This optional qualifier will indicate that the button that you are clicking on it in the sub tab.",
+      "Expression": "\\+ ([\\w\\s/]+) > ([\\w\\s/]+), TB",
+      "Example": "+ Message content > New, TB",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$2</b> menu button in the <b>$1</b> toolbar"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b> > <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$2</b> button within the <b>$1</b> toolbar"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$2</b> button within the <b>$1</b> toolbar"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + AP",
+      "Description": "This shorthand command will create the text for the clicking of a menu button. This optional qualifier will indicate that the button that you are clicking on it in the action pane.",
+      "Expression": "\\+ ([\\w\\s/]+) > ([\\w\\s/]+), AP",
+      "Example": "+ New > Create, AP",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$2</b> button in the <b>$1</b> action pane"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b> > <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$2</b> button within the <b>$1</b> action pane tab"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$2</b> button within the <b>$1</b> action pane tab"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + NB",
+      "Description": "This shorthand command will create the text for the clicking of a menu button. This optional qualifier will indicate that the button that you are clicking on it in the navigation bar.",
+      "Expression": "\\+ ([\\w\\s/]+), NB",
+      "Example": "+ New, NB",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> button in the navigation bar"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> button within the navigation bar"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> button within the navigation bar"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + AP",
+      "Description": "This shorthand command will create the text for the clicking of a menu button. This optional qualifier will indicate that the button that you are clicking on it in the action pane.",
+      "Expression": "\\+ ([\\w\\s/]+), AP",
+      "Example": "+ New, AP",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> action pane button"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> buton in the action pane"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> action pane button"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: SEL + TAB",
+      "Description": "This shorthand command will create the text for the clicking of a button.  This optional qualifier will indicate that the button that you are clicking on it in the menu bar.",
+      "Expression": "SEL \\+ ([\\w\\s/]+), TAB",
+      "Example": "SEL + Country, TAB",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Select the <b>$1</b> tab"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Select the <b>$1</b> tab"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Select the <b>$1</b> tab"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + TAB",
+      "Description": "This shorthand command will create the text for the clicking of a button.  This optional qualifier will indicate that the button that you are clicking on it in the menu bar.",
+      "Expression": "\\+ ([\\w\\s/]+), TAB",
+      "Example": "+ New, TAB",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Expand the <b>$1</b> tab"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Expand the <b>$1</b> tab"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Expand the <b>$1</b> tab"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + MB",
+      "Description": "This shorthand command will create the text for the clicking of a button.  This optional qualifier will indicate that the button that you are clicking on it in the menu bar.",
+      "Expression": "\\+ ([\\w\\s/]+), MB",
+      "Example": "+ New, MB",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> button"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> button in the menu bar"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> button"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + REC",
+      "Description": "This shorthand command will create the text for the clicking of a record.",
+      "Expression": "\\+ ([\\w\\s/]+), REC",
+      "Example": "+ New",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> record"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> record"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> record"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + TILE",
+      "Description": "This shorthand command will create the text for the clicking of a tile.",
+      "Expression": "\\+ ([\\w\\s/]+), TILE",
+      "Example": "+ New, TILE",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> tile"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> tile"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> tile"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: + LINK",
+      "Description": "This shorthand command will create the text for the clicking of a link.",
+      "Expression": "\\+ ([\\w\\s/]+), LINK",
+      "Example": "+ New, LINK",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> lnk"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> link"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> link"
+        }
+      ]
+    },
+    {
+      "Title": "RIGHT MOUSE CLICK Shorthand: ++",
+      "Description": "This shorthand command will create the text for the right mouse clicking.",
+      "Expression": "\\+\\+ ([\\w\\s/]+)",
+      "Example": "++ Workspace area",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Right mouse click the <b>$1</b>"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "++ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Right mouse click on the <b>$1</b>"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Right mouse click on the <b>$1</b>"
+        }
+      ]
+    },
+    {
+      "Title": "CLICK Shorthand: +",
+      "Description": "This shorthand command will create the text for the clicking of a button.",
+      "Expression": "\\+ ([\\w\\s/]+)",
+      "Example": "+ New",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Click the <b>$1</b> button"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "+ <b>$1</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {just|all we need to do is}",
+          "Template": "Click on the <b>$1</b> button"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> button"
+        }
+      ]
+    },
+    {
+      "Title": "SET Shorthand: TOG :",
+      "Description": "This shorthand command will create an assignment statement for a field.  This is an optional qualifier that identifies that the field is a toggle value.",
+      "Expression": "TOG ([\\w\\s/]+): ([\\w\\s/:.]+)",
+      "Example": "TOG Customer Active: True",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Toggle the <b>$1</b> field"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b>: <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "{toggle} the <b>$1</b> option"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Toggle the <b>$1</b> to <b>$2</b>"
+        },
+        {
+          "Style": "Data",
+          "Introduction": "",
+          "Template": "<b>$1</b>: Toggle to <b>$2</b>"
+        },
+        {
+          "Style": "Example",
+          "Introduction": "{For this example|This time}, we will want to",
+          "Template": "toggle <b>$1</b> to <b>$2</b>"
+        }
+      ]
+    },
+    {
+      "Title": "SET Shorthand: DD :",
+      "Description": "This shorthand command will create an assignment statement for a field.  This is an optional qualifier that identifies that the field is a dropdown value.",
+      "Expression": "DD ([\\w\\s/]+): ([\\w\\s/:.]+)",
+      "Example": "DD Customer Group: 100",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Select the <b>$1</b> field"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b>: <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "{change|update} the <b>$1</b> value"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Click on the <b>$1</b> dropdown list and select <b>$2</b>"
+        },
+        {
+          "Style": "Data",
+          "Introduction": "",
+          "Template": "<b>$1</b>: Select <b>$2</b>"
+        },
+        {
+          "Style": "Example",
+          "Introduction": "{For this example|This time}, we will want to",
+          "Template": "Click on the <b>$1</b> dropdown list and select <b>$2</b>"
+        }
+      ]
+    },
+    {
+      "Title": "SET Shorthand: ST :",
+      "Description": "This shorthand command will create an assignment statement for a field.  This option will use Set to in the text rather than the default text.",
+      "Expression": "ST ([\\w\\s/]+): ([\\w\\s/:.]+)",
+      "Example": "ST Customer Group: 10",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Update the <b>$1</b> field"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b>: <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "{change|update} the <b>$1</b> value"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Set the <b>$1</b> to <b>$2</b>"
+        },
+        {
+          "Style": "Data",
+          "Introduction": "",
+          "Template": "<b>$1</b>: Type in <b>$2</b>"
+        },
+        {
+          "Style": "Example",
+          "Introduction": "{For this example|This time}, we will want to",
+          "Template": "set the <b>$1</b> to <b>$2</b>"
+        }
+      ]
+    },
+    {
+      "Title": "SET Shorthand: :",
+      "Description": "This shorthand command will create an assignment statement for a field.",
+      "Expression": "([\\w\\s/]+): ([\\w\\s/:.@-\\{\\}]+)",
+      "Example": "Customer Name: Contoso",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Update the <b>$1</b> field"
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b>: <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "{change|update} the <b>$1</b> value to <b>$2</b>"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Set the <b>$1</b> to <b>$2</b>"
+        },
+        {
+          "Style": "Data",
+          "Introduction": "",
+          "Template": "<b>$1</b>: Type in <b>$2</b>"
+        },
+        {
+          "Style": "Example",
+          "Introduction": "{For this example|This time}, we will want to",
+          "Template": "set the <b>$1</b> to <b>$2</b>"
+        }
+      ]
+    },
+    {
+      "Title": "NAV Shorthand: SEARCH >",
+      "Description": "This shorthand command will build a Navigation command from a path. This option will allow you to create a navigation command that is using the search feature.",
+      "Expression": "(SEARCH|\\?) ([\\w\\s/]+) > ([\\w\\s/]+)",
+      "Example": "SEARCH release > Released products",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Search for the <b>$3</b> form"
+        },
+        {
+          "Style": "Objective",
+          "Introduction": "",
+          "Template": "We can {get to|find|access} the <b>$3</b> menu item through the menu search option."
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "Type <b>$2</b> into the search field"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "Click on the search box in the header of the form (or press ALT+G), type <b>$2</b> into the search box and, select the <b>$3</b> menu item from the list of results"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Search for <b>$3</b>"
+        }
+      ]
+    },
+    {
+      "Title": "NAV Shorthand: > > >",
+      "Description": "This shorthand command will build a Navigation command from a path.",
+      "Expression": "([\\w\\s/]+) > ([\\w\\s/]+) > ([\\w\\s/]+) > ([\\w\\s/]+)",
+      "Example": "Organization administration > Global address book > Addresses > Address setup",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Open the <b>$4</b> form"
+        },
+        {
+          "Style": "Objective",
+          "Introduction": "",
+          "Template": "We can {get to|find|access} the <b>$4</b> form through the main menu."
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b> > <b>$2</b> > <b>$3</b> > <b>$4</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "Open the navigation pane, expand out the Modules and group, click on the <b>$1</b> group to see all the available menu items and then click on the <b>$4</b> menu item within the <b>$3</b> folder of the <b>$2</b> group"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Navigate to <b>$1</b> > <b>$2</b> > <b>$3</b> > <b>$4</b>"
+        }
+      ]
+    },
+    {
+      "Title": "NAV Shorthand: > >",
+      "Description": "This shorthand command will build a Navigation command from a path.",
+      "Expression": "([\\w\\s/]+) > ([\\w\\s/]+) > ([\\w\\s/]+)",
+      "Example": "Product information management > Products > Released products",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Open the <b>$3</b> form"
+        },
+        {
+          "Style": "Objective",
+          "Introduction": "",
+          "Template": "We can {get to|find|access} the <b>$3</b> form through the main menu."
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b> > <b>$2</b> > <b>$3</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "Open the navigation pane, expand out the Modules and group, click on the <b>$1</b> group to see all the available menu items and then click on the <b>$3</b> menu item within the <b>$2</b> group"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Navigate to <b>$1</b> > <b>$2</b> > <b>$3</b>"
+        }
+      ]
+    },
+    {
+      "Title": "NAV Shorthand: >",
+      "Description": "This shorthand command will build a Navigation command from a path",
+      "Expression": "([\\w\\s/]+) > ([\\w\\s/]+)",
+      "Example": "Product information management > Released products",
+      "Templates": [
+        {
+          "Style": "Subtitle",
+          "Introduction": "",
+          "Template": "Open the <b>$2</b> form"
+        },
+        {
+          "Style": "Objective",
+          "Introduction": "",
+          "Template": "We can {get to|find|access} the <b>$2</b> form through the main menu."
+        },
+        {
+          "Style": "Shortcut",
+          "Introduction": "",
+          "Template": "<b>$1</b> > <b>$2</b>"
+        },
+        {
+          "Style": "Action",
+          "Introduction": "To do this, {we will need to|}",
+          "Template": "open the navigation pane, expand out the Modules and group, click on the <b>$1</b> group to see all the available menu items and then click on the <b>$2</b> menu item"
+        },
+        {
+          "Style": "Shorthand",
+          "Introduction": "",
+          "Template": "Navigate to <b>$1</b> > <b>$2</b>"
+        }
+      ]
+    }
+  ]
+}
